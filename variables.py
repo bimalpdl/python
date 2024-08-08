@@ -10,11 +10,11 @@ print(x,y,z)
 
 # If you have a collection of values in a list, tuple etc. Python allows you to extract the values into variables.
 # This is called unpacking.
-names = ["Rohini", "Paudel", "Didey"]
+names = ["Bimal", "is", "awesome"]
 x,y,z = names
 # using '+' to concatenate string won't add white space to separate the variables in print() statement and we need to specify white space before/after string manually.
 print("Using '+' to concatenate the string: " + x + y + z)
-names = ["Rohini ", "Paudel ", "Didey "]
+names = ["Bimal ", "is ", "awesome "]
 x,y,z = names
 print(x+y+z)
 
@@ -31,7 +31,7 @@ print(x,y)
 # local and global variables in python:
 # we need to use 'global' keyword to access the global variable inside a function (if there is a variable containg same variable name)
 
-name = "Rohini"
+name = "Bimal"
 
 def greet():
     print("Hello,",name)
@@ -39,13 +39,12 @@ def greet():
 greet()
 
 
-didi = "caring"
-
+name = "easy"
 def didey():
-    didi = "supportive"
-    print("Didey is",didi)  # prints 'Didey is supportive' using local variable
+    name = "supportive"
+    print("Pyton is",name)  # prints 'Python is supportive' using local variable
 didey()
-print("Didey is", didi)    # prints 'Didey is caring' using global variable
+print("Python is", name)    # prints 'Python is easy' using global variable
 
 
 # accessing and modifying global variable inside the function
