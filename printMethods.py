@@ -5,12 +5,11 @@ this is multi-line comment
 
 print("Hello, There")
 # input() is used to take user input and can be directly assigned to the variable
-# we can also pass argument to promt for input
+# we can also pass argument to prompt for input
 name = input("Enter your name: ")    # prompts user to enter their name and assigns it to the variable 'name'
 print("Hello, " + name)
 print("Hello,", name)     # this automatically adds a whitespace before the passed argument
-print(f"Hello, {name}")    # this is the most preferred method
-
+print(f"Hello, {name}")    # this is the most preferred
 
 
 # strip() is used to remove whitespace from beginning and end of the string(if exists) but doesn't remove white space inbetween words
@@ -29,3 +28,12 @@ print("Hello, " + name)
 # we can also use all methods at once:
 address = input("Enter your address: ").strip().capitalize().title()
 print(f"Is {address} really your addres? ")
+
+
+# type() function is used to check the data type
+num = 123
+num1 = 1.23
+string = "Hello There!!"
+print(num,"is of",type(num),"data type")
+print(num1,"is of",type(num1),"data type")
+print(string,"is of",type(string),"data type")
