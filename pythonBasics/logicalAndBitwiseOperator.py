@@ -10,5 +10,5 @@ print(2&3)  # 0010 & 0011 = 0010  = 2
 print(2|3)
 print(~3)
 print(2^3)
-print(2<<1)
-print(4>>1)
+print(2<<1)    # left shift 0010 = 2 by 1 bit => 0100 = 4
+print(4>>1)    # right shift 0100 = 4 by 1 bit => 0010 = 2

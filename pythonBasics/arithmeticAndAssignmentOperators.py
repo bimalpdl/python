@@ -14,3 +14,11 @@ print("Division:", num1 / num2)
 print("Modulo:", num1 % num2)
 print("Floor division:", num1 // num2)
 print("Power:", num1 ** num2)
+
+
+print()
+
+# comparison operators are same as in C++
+
+# assignment operators
+# = , += , -= , *= , /= , %= , **=

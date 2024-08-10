@@ -6,7 +6,7 @@
 str1 = "Hello, There!"
 str2 = "How are you doing?"
 print(str1, end=' ')    # default value of end parameter is '\n' so it prits the newline after printing
-print(str2)    # this will be printed in same line
+print(str2)    # but this will be printed in same line
 
 
 # sep parameter in print()

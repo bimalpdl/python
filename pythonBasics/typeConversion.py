@@ -1,4 +1,4 @@
-# implicit type conversion
+# implicit type conversion (performed by the Python interpreter)
 # Python promotes the conversion of the lower data type (integer) to the higher data type (float) to avoid data loss.
 num = 189 # int type
 num1 = 12.38    # float type
