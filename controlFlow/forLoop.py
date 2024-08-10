@@ -18,12 +18,13 @@ for i in word:    # iterate over each character in language; the 'Bimali' has 8 
     print(i, end = " ")
 print()
 
-for i in word:    # the word 'Bimali' contains 6 charaters so iterates 6 times (starting from 0)
+for i in word:    # the word 'Bimali' contains 6 charaters so iterates 6 times
     print(count, end = " ")  # we can do whatever we want (not just printing the charaters of the given word/str)
     count += 1
 print()
 
 # the range() function returns a sequence of numbers.
+# By default, the sequence starts at 0, increments by 1, and stops before the specified number.
 for i in range(5):    # iterates from i = 0 to i = 4
     print("{}. Hello, World!".format(i))
 
