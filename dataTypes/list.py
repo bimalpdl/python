@@ -37,6 +37,9 @@ list2 = ["Acer", "Lenovo", "Xiaomi", "Disney"]
 print(list[-1])   # prints the first element from back
 print(list2[-3])   # Lenovo from negative index -3 (last element index is -1)
 
+# use the append() method to add an element to the end of a Python list
+print("Original list: ",list2)
+
 # it is possible to access a section of items from the list using the slicing operator ( : )
 list3 = ['B', 'I', 'M', 'A', 'L', 'I']
 print(list3[2:5])   # prints item from index 2 to index 4
