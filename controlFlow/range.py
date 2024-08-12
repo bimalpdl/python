@@ -9,7 +9,7 @@ for i in range(5):       # create a sequence form 0 to 4
 # range() Return Value   => The range() function returns an immutable sequence of numbers.
 
 # range() stop
-num = range(5)    # stops after 5 itereations (by default, 0 to 5)
+num = range(5)    # stops after 5 itereations (by default, 0 to 4)
 print(list(num))
 
 # print(num)    // this will print ' range(0,5) '
@@ -24,11 +24,11 @@ print(list(num2))
 
 # creates an empty sequence
 numbers = range(4, 2)
-print(list(numbers))    # []
+print(list(numbers))    #  this will print empty list i.e []
 
 
 # range (start, stop, step)
-# create a sequence from 2 to 10 with increment of 3
+# create a sequence from 2 to 12 with increment of 3
 num = range(2,12,3)
 print(list(num))   # [2, 5, 8, 11]
 

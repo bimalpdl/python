@@ -1,8 +1,8 @@
 # In Python, we use a for loop to iterate over sequences such as lists, strings, dictionaries, etc.
 # we use indentation to define a block of code, such as the body of a loop.
 
-# for through a list
-names = ["Bimal", "Rohini", "Nirmal", "Bishwaksen"]    # list has 4 elements, the loop iterates 4 times.
+# loop through a list
+names = ["Bimal", "Rohini", "Nirmal", "Bishwaksen"]    # list has 4 elements so the loop iterates 4 times.
 for name in names:
     print(name)
     print(f"Hello {name}, how are you?")
@@ -14,7 +14,7 @@ for name in names:
 # loop through a string
 word = "Bimali"
 count = 0
-for i in word:    # iterate over each character in language; the 'Bimali' has 8 characters so iterates 6 times
+for i in word:    # iterate over each character in string; the 'Bimali' has 6 characters so iterates 6 times
     print(i, end = " ")
 print()
 
@@ -29,6 +29,7 @@ for i in range(5):    # iterates from i = 0 to i = 4
     print("{}. Hello, World!".format(i))
 
 
+
 # A for loop can have an optional else clause.
 # This else clause executes after the iteration completes.
 values = [10, 15, 16]
@@ -37,7 +38,9 @@ for value in values:
 # The else block will not execute if the for loop is stopped by a break statement.
 else:
     print()
-    print("Hello, There!")   #When the loop finishes, it executes the else block and prints 'Hello, There!'
+    print("Hello, There!")   # When the loop finishes, it executes the else block and prints 'Hello, There!'
+
+
 
 
 # Using for loop without accessing items
