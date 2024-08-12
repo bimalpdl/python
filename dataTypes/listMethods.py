@@ -1,3 +1,4 @@
+# commonly used list methods: append(), extend(), remove(), del, sort(), len(), pop(), reverse(), clear()
 # use the append() method to add an element to the end of a Python list
 list1 = ["Acer", "Lenovo", "HP", "Dell", "Xiaomi"]
 print("Items in the original list are:",list1)
@@ -67,3 +68,8 @@ print("After sort operation:",list5)
 # to perform sort() in descenging order, use sort(reverse=True)
 list5.sort(reverse=True)
 print("Afte performing sort in descending order:", list5)
+
+
+# clear() removes all elements form the list
+list5.clear()
+print("After applying clear() method on list5:", list5)
