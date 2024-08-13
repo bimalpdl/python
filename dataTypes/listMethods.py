@@ -1,4 +1,4 @@
-# commonly used list methods: append(), extend(), remove(), del, sort(), len(), pop(), reverse(), clear()
+# commonly used list methods: append(), insert() extend(), remove(), del, sort(), len(), pop(), reverse(), clear()
 # use the append() method to add an element to the end of a Python list
 list1 = ["Acer", "Lenovo", "HP", "Dell", "Xiaomi"]
 print("Items in the original list are:",list1)
