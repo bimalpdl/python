@@ -20,10 +20,10 @@ print("Elements in set2 are:", set2)
 
 var = {}
 var1 = set()
-print(f"Type of var is: {type(var)}")
-print(f"Type of var1 is: {type(var1)}")
+print(f"Type of var is: {type(var)}")    # dictionary
+print(f"Type of var1 is: {type(var1)}")    # set
 
-# even if we dare to add duplicate element in the set, it'll only stores it once.
+# even if we dare to add duplicate element in the set, it'll only store it once.
 set3 = {1, 2, 3, 1, 4, 5,2}
 print("Elements in set3 are:",set3)   # prints {1, 2, 3, 4, 5}
 
@@ -58,3 +58,13 @@ print("Cities, after deleting kathmandu:", cities)
 
 # len() method is used to findout the number of elements in the set
 print(f"Length of set cities is:", len(cities))
+
+
+# sum() Returns the sum of all elements in the set.
+print(f"Elements in set1", set1)
+print(f"Sum of the all element inside set1:", sum(set1))
+
+
+# sorted() Returns a new sorted list from elements in the set(does not sort the set itself).
+set6 = sorted(set1)
+print("Sorted list1 :", set6)
