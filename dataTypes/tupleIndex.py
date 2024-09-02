@@ -1,5 +1,5 @@
 # The index() method returns the index of the specified element in the tuple.
-# and it returns ValueError exception if the element is not found in the tuple
+# it returns ValueError exception if the element is not found in the tuple
 tup1 = ('a', 'e', 'i','o', 'u' , 'i')
 print(tup1)
 print("The index of 'i' in given tuple is:", tup1.index('i'), "\n")
@@ -18,7 +18,7 @@ print("The index of 'i' in given tuple is:", tup1.index('i'), "\n")
 
 tup2 = ('a', 'e', 'o', 'i', 'n', 'u', 'o', 'b')
 print(tup2)
-print("Index of 'e' in tup2 is", tup2.index('e'))
+print("Index of 'e' in tup2 is", tup2.index('e'))  # prints 1
 print(f"Index of second 'o' in given tuple is: {tup2.index('o',3,7)}")    # scans 'o' from index 3 to 7 and returns its index
 # the line above will search the element in specified range of index i.e 3 to 7 ignoring the pervious occurence of the element
 # the range of index also include the last index i.e 7

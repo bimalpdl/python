@@ -1,5 +1,5 @@
 # Python Set provides different built-in methods to perform mathematical
-# set operations like union, intersection, subtraction, and symmetric difference.
+# set operations like union() or | , intersection() or & , subtraction or - , and symmetric difference or ^ , = =.
 
 # We use the | operator or the union() method to perform the set union operation.
 set1 = {1, 2, 3, 4,5}

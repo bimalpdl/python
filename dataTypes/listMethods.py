@@ -1,5 +1,5 @@
-# commonly used list methods: append(), insert() extend(), remove(), del, sort(), len(), pop(), reverse(), clear()
-# use the append() method to add an element to the end of a Python list
+# commonly used list methods: append(), insert(), extend(), remove(), del, sort(),sort(reverse=True), len(), pop(), reverse(), clear()
+# use the append() method to add an element to the end of a list
 list1 = ["Acer", "Lenovo", "HP", "Dell", "Xiaomi"]
 print("Items in the original list are:",list1)
 list1.append("Thinkpad")
@@ -24,7 +24,7 @@ print("Items in original list:",list1)
 list1[0] = "Nokia"    # updates the value in index 0
 print("Items in the list after changing the element of index 0:", list1, "\n")
 
-# We can remove an item from a list using the remove() method, it removes the element by its name, not by index
+# We can remove an item from a list using the remove() method, it removes the element by its name/value, not by index
 list1.remove("Nokia")    # used to remove only one element from the list
 print("List elements after removing 'NOkia'.", list1,"\n")
 

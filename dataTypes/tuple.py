@@ -33,7 +33,7 @@ print("Element at 0th index is:",names[0])
 print("Length of the tuple is:", len(names))
 
 
-# We use the in keyword to check if an item exists in the tuple
+# We use the 'in' keyword to check if an item exists in the tuple
 print("Is 'Bimal' present in names? ", "Bimal" in names)
 print("Is 'Rohini' present in names? ", "Rohini" in names)
 
@@ -44,12 +44,12 @@ del names
 # print(names)   // the tuple 'names'' in already deleted so can't print tuple 'names'
 
 # to create a tuple with single element
-name = ("Bimal")   # this will be treated as a string, to make it tuple, palce a comma(,) after element name
+name = ("Bimal")   # this will be treated as a string, to make it tuple, palce a comma(,) after the element
 print("The type of name is", type(name))    # str
 name1 = ("Bimal",)
 print("Type of name1 is", type(name1))    # tuple
 
-# a tuple can hold anothe tuple or list within tuple body
+# a tuple can hold another tuple or list within tuple body
 tup = (1,(2,3),[4,5])
 print(tup,"\n")
 

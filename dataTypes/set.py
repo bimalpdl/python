@@ -3,6 +3,7 @@
 # but a set cannot have mutable elements like lists, sets or dictionaries as its elements.
 # sets are mutable, means we can change/update/delete even after set declaration.
 # Un-ordered - set doesn't maintain the order of elements.
+# commono set functions are: set(), min(), max(), add(), update(), discard(), len(), sum(), sorted()
 
 set1 = {1, 2, 3, 4, 5, 6, 7}
 print("Numbers in set1 are: {}".format(set1))
