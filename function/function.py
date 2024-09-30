@@ -24,3 +24,10 @@ def greet2(name,message = "Hello"):
 
 greet2("Bimal")
 print("Rohini","Have a good day!")
+
+
+# python keyword argument:
+def greet3(lastName, firstName):
+    print("First name:",firstName, "Last name :", lastName)
+
+greet3(lastName = "Paudel", firstName = "Bimal")
