@@ -27,7 +27,7 @@ print("Value of e is:", math.e)
 # Importing everything with the asterisk (*) symbol is not a good programming practice. 
 # This can lead to duplicate definitions for an identifier. 
 
-
+import hello    # hello module prints (__name__), since it is called as a module it prints the filename itself (i.e 'hello')
 
 # we can use the dir() built-in function to list all the function names in a module.
 print(dir(addition))
