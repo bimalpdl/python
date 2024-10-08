@@ -3,7 +3,7 @@
 list1 = ["Acer", "Lenovo", "HP", "Dell", "Xiaomi"]
 print("Items in the original list are:",list1)
 list1.append("Thinkpad")
-print("Items appendin an item:", list1, "\n")
+print("Items after appending an item:", list1, "\n")
 
 
 
@@ -19,7 +19,7 @@ print("Elements in second list:", list3)
 list2.extend(list3)    # adds elements of list3 to list2
 print("The extended list:", list2,"\n")
 
-# We can change the items of a list by assigning new values using the = operator
+# We can change the items of a list by assigning new values using the assignment ( = ) operator
 print("Items in original list:",list1)
 list1[0] = "Nokia"    # updates the value in index 0
 print("Items in the list after changing the element of index 0:", list1, "\n")
