@@ -50,7 +50,9 @@ elif len(sys.argv) > 2:
 print("My name is: ",sys.argv[1])
 
 
-
+# PyPI is a repository or directory of all available third-party packages currently available.
+# Python has a package manager called pip that allows you to install packages quickly onto your system
+# In the terminal window, you can install the any package by typing pip install <packageName>
 
 
 
