@@ -1,5 +1,5 @@
-import string1 as st
+from string1 import hello
+def checkDefault():
+    assert hello() == "Hello, Duniya"
+    assert hello("Bimal") == "Hello, Bimal"
 
-def testString():
-    assert hello("Rohini") == "Hello, Rohini"
-    assert hello() == "Hello, world"

@@ -1,9 +1,9 @@
 def main():
     name = input("Enter your name: ")
-    hello(name)
+    print(hello(name))
 
-def hello(to = "world"):
-    print("Hello,", to)
+def hello(naam = "Duniya"):
+    return f"Hello, {naam}"
 
 if __name__ == "__main__":
     main()
