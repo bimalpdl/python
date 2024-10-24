@@ -1,12 +1,18 @@
-def main():
-    size = int(input("Enter the size: "))
-    printSquare(size)
+text = f"""Hello
 
-def printSquare(size):
-    for i in range(size):
-        for j in range(size):
-            print("#", end="")
 
-        print()
+This is some random text
 
-main()
+that i want to store in the file.. Is it possible? Lets find out!
+
+PS:Its actually possible to store text like this!! 
+
+"""
+with open("dummyFile", "a") as file:
+    file.write(text)
+
+with open("dummyFile", "r") as file:
+    lines = file.readlines()
+
+for line in lines:
+    print(line.rstrip())
