@@ -1,0 +1,145 @@
+# .bashrc
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+    . /etc/bashrc
+fi
+
+# User specific environment
+if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]; then
+    PATH="$HOME/.local/bin:$HOME/bin:$PATH"
+fi
+export PATH
+
+# Uncomment the following line if you don't like systemctl's auto-paging feature:
+# export SYSTEMD_PAGER=
+
+# User specific aliases and functions
+if [ -d ~/.bashrc.d ]; then
+    for rc in ~/.bashrc.d/*; do
+        if [ -f "$rc" ]; then
+            . "$rc"
+        fi
+    done
+fi
+unset rc
+
+
+# aliases for wifi 
+alias wifi_on="nmcli radio wifi on"
+alias wifi_off="nmcli radio wifi off"
+alias wifi_toggle="nmcli radio wifi toggle"
+
+
+
+# xdg-open is a standard command in most Linux distributions that can open files, folders, and URLs.
+alias open="xdg-open"
+#this is userdefined path for 'bin' folder in home direcrory
+if [ -d ~/bin ]
+then
+	PATH=$PATH:~/bin
+fi
+
+# to prevent accidental override of file while using '>'
+set -o noclobber
+# if you intentionally want to override the file use '>|' insted
+
+alias xampp="sudo /opt/lampp/manager-linux-x64.run"
+alias xam="sudo /opt/lampp/lampp start"
+alias pubip="curl https://ipinfo.io/ip"
+alias mv="mv -i"
+alias cp="cp -i"
+alias vana="echo"
+alias dekhau="ls"
+alias suta="systemctl suspend -i"
+alias banda="shutdown -h now"
+alias rmt="trash"
+alias naya="touch"
+alias grep="grep -i --color"
+alias hatau="rm"
+alias jau="cd"
+alias dekhau="cat"
+alias khola="open"
+alias wifipasswd="sudo grep psk= /etc/NetworkManager/system-connections/*"
+alias refresh="exec bash"
+
+alias lg="ls -a |grep -i"
+alias calc="gnome-calculator"
+alias phpcode="sudo /opt/lampp/lampp start ;code /opt/lampp/htdocs/Bimal ; open https://localhost/Bimal ; open https://localhost/phpmyadmin/ ; open https://www.w3schools.com/php/"
+alias sql='/opt/lampp/bin/mysql -h localhost -u root -p'
+alias note="vim ~/Documents/commands"
+alias editBashrc="vim ~/.bashrc"
+alias wifii="wifi_off ; wifi_on"
+alias zed="flatpak run dev.zed.Zed"
+alias brave="flatpak run com.brave.Browser"
+ 
+alias py="python3"
+
+alias love="echo \"-bash: 'love' not found\""
+alias happiness="echo \"-bash: 'happiness' not found\""
+alias peace="echo \"-bash: 'peace' not found\""
+alias pycode="nvim ~/Python/."
+alias cppcode="zed ~/Desktop/whatever/C++"
+export PATH=$HOME/.local/bin:$PATH
+alias cppcode="~/Desktop/whatever/C++/."
+alias gpt="tgpt"
+alias z=zsh
+alias org="cd /home/bimal/Documents/org/"
+alias code="flatpak run com.visualstudio.code"
+alias ll="ls -lhtr --color=auto"
+alias desktop="cd /home/bimal/Desktop"
+Hello
+
+
+This is some random text
+that i want to store in the file.. Is it possible? Lets find out!Hello
+
+
+This is some random text
+that i want to store in the file.. Is it possible? Lets find out!Hello
+
+
+This is some random text
+that i want to store in the file.. Is it possible? Lets find out!Hello
+
+
+This is some random text
+that i want to store in the file.. Is it possible? Lets find out!Hello
+
+
+This is some random text
+that i want to store in the file.. Is it possible? Lets find out!Hello
+
+
+This is some random text
+that i want to store in the file.. Is it possible? Lets find out!Hello
+
+
+This is some random text
+that i want to store in the file.. Is it possible? Lets find out!Hello
+
+
+This is some random text
+
+that i want to store in the file.. Is it possible? Lets find out!
+
+PS:Its actually possible to store text like this!! 
+
+Hello
+
+
+This is some random text
+
+that i want to store in the file.. Is it possible? Lets find out!
+
+PS:Its actually possible to store text like this!! 
+
+Hello
+
+
+This is some random text
+
+that i want to store in the file.. Is it possible? Lets find out!
+
+PS:Its actually possible to store text like this!! 
+
